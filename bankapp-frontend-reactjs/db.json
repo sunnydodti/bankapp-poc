@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "id": "123",
+      "uname": "name1",
+      "pass": "abc"
+    },
+    {
+      "id": "123",
+      "uname": "name1",
+      "pass": "abc"
+    },
+    {
+      "id": "123",
+      "uname": "name1",
+      "pass": "abc"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

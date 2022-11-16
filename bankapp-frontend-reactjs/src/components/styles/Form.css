@@ -1,0 +1,75 @@
+.login-container,
+.signup-container,
+.change-password-container,
+.statement-container,
+.account-container,
+.customer-container {
+    width: 40%;
+    margin-top: 5vh;
+    padding: 8px;
+    background-color: #1E2749;
+    border-radius: 12px;
+    /* box-shadow: 0 0px 20px 0px rgba(114, 173, 184, 0.498); */
+}
+
+.login-container label {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.form-label {
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: .6em;
+    margin: 1px;
+}
+
+.form-label {
+    color: #FAFAFF;
+}
+
+.password-box {
+    display: none;
+}
+
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+label {
+    color: #FAFAFF;
+    text-align: left;
+}
+
+form label {
+    color: black;
+}
+
+.row {
+    /* --bs-gutter-x: 1.5rem; */
+    /* --bs gutter overwrites the form gutter ! --bs-gutter-y: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.message-label-hidden {
+    display: none;
+}
+
+.message-label-success {
+    display: block;
+    text-align: center;
+    color: greenyellow;
+}
+
+.message-label-fail {
+    display: block;
+    text-align: center;
+    color: rgb(255, 136, 0);
+}
